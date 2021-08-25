@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Ubuntu&display=swap');
+
+.btn-primary {
+    width: 100% !important;
+    box-shadow: 10px 10px 20px white;
+    font-size: 32px !important;
+    color: white;
+    font-family: 'Rampart One', cursive;
+}
+
+.dj_btn{
+    animation: bg_changer 1s linear infinite;
+    color: white;
+    font-weight: bold;
+    font-size: 18px
+}
+
+@keyframes bg_changer {
+    0% {
+        background-color: red;
+    }
+
+    40% {
+        background-color: green;
+    }
+
+    80% {
+        background-color: darkblue;
+    }
+
+    100% {
+        background-color: purple;
+    }
+}
+
+.text{
+    font-family: 'Patua One', cursive !important;
+}
+
+canvas{
+    border: 8px solid white;
+    border-radius: 10px;
+    animation: changer .9s linear infinite;
+}
+
+.btn-info{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@keyframes changer {
+    0% {
+        box-shadow: 5px 5px 40px 10px red;
+    }
+
+    20% {
+        box-shadow: 5px 5px 40px 10px orange;
+    }
+
+    40% {
+        box-shadow: 5px 5px 40px 10px yellow;
+    }
+
+    60% {
+        box-shadow: 5px 5px 40px 10px green;
+    }
+
+    80% {
+        box-shadow: 5px 5px 40px 10px darkblue;
+    }
+
+    100% {
+        box-shadow: 5px 5px 40px 10px purple;
+    }
+
+}
+
+.btn-primary span {
+    font-size: 20px !important;
+    color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-size: cover;
+}
+
+.btn-danger {
+    font-weight: bold !important;
+    color: white;
+}
+
+.container1 {
+    float: left;
+    margin: 1.25rem !important;
+}
+
+.container2 {
+    float: right;
+    margin: 1.25rem !important;
+}
+
+.gif_image {
+    width: 200px;
+    border-radius: 100%;
+}
